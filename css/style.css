@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#menu-horizontal {
+    background-color: rgb(4, 0, 0);
+}
+
+#menu-horizontal ul {
+    max-width: 2000px;
+    list-style: none;
+    padding: 20px;
+}
+
+#menu-horizontal ul li {
+    display: inline;    
+}
+
+#menu-horizontal ul li a {
+    color: rgb(169, 166, 166);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-horizontal ul li a:hover {
+    background-color: rgb(254, 213, 217);
+}
+
+#menu-horizontal ul li:last-child a {
+    float: right;
+    background-color: rgb(254, 213, 217);
+}
+
+.demoDiv {
+    border: 2px outset rgb(0, 0, 0);
+    background-color: rgb(254, 213, 217);
+    background-size: cover;
+    color: rgb(3, 3, 3);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .parallax {
+    background-image: url(../image/tumblr_75e7ba7b4fb4c33bbc75bfcc9cd357ba_24adeaa5_1280.jpg);
+    min-height: 700px;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
