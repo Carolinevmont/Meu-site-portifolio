@@ -2,8 +2,49 @@
 
 *
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 227, 227);
     font-family: Verdana, Tahoma, sans-serif;
+}
+
+.botão {
+    padding: 10% 20px;
+    cursor: pointer;
+    background-color: rgb(255, 227, 227);
+    color: ;
+}
+
+.conteiner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.imagem {
+    width: fit-content;
+    left: auto;
+    margin: auto;
+    display: block;
+    pointer-events: none;
+}
+
+.pedido {
+    position: absolute;
+    top: 68%;
+    left: 42%;
+    color:  rgb(4, 0, 0);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: all.5s;
+    color:  rgb(4, 0, 0);
+    top: 70%;
 }
 
 #menu-horizontal {
@@ -21,7 +62,7 @@ body{
 }
 
 #menu-horizontal ul li a {
-    color: rgb(169, 166, 166);
+    color: rgb(159, 157, 157);
     padding: 20px;
     display: inline-block;
     text-decoration: none;
@@ -34,7 +75,7 @@ body{
 
 #menu-horizontal ul li:last-child a {
     float: right;
-    background-color: rgb(254, 213, 217);
+    background-color: #464646;
 }
 
 .demoDiv {
