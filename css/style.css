@@ -1,121 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+    color: #000000;
 }
 
-#menu-horizontal {
-    background-color: white;
+.titulo-destaque{
+    color: #fcaf71;
 }
 
-#menu-horizontal ul {
-    max-width: 2000px;
-    list-style: none;
-    padding: 20px;
+.apresentacao{
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-#menu-horizontal ul li {
-    display: inline;    
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
 }
 
-#menu-horizontal ul li a {
-    color: rgb(54, 54, 54);
-    padding: 20px;
-    border-radius: 20px 20px 20px 20px;
-    display: inline-block;
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
     text-decoration: none;
-    transition: background .4s;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao__links_sub {
+    font-family: 'krona one', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.apresentacao__links__link{
+    background-color:  #fee6c4;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
     text-align: center;
-}
-
-#menu-horizontal ul li a:hover {
-    background-color: #fee6c4;
-}
-
-#menu-horizontal ul li:last-child a {
-    float: right;
-    background-color: #fee6c4;
-}
-
-.demoDiv {
-    border: 2px outset rgb(0, 0, 0);
-    background-color: rgb(254, 213, 217);
-    background-size:cover;
-    color: rgb(3, 3, 3);
-    font-weight: 500;
-    font-family: Georgia;
-    text-align: center;
-}
-div.quadradosite {
-    position: absolute;
-    width:393px;
-    height:500px;
-    background-color: #fee6c4; 
-    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 23px 0;
+    text-decoration: none;
+    color: #000000;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 20px 20px 20px 20px;
-    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-div.quadradosited {
-    position: absolute;
-    width:395px;
-    height:510px;
-    background-color: #f4ece6; 
-    margin: 50px;
-    margin-top: 60px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    
- }
-    div.meunome {
-    position: absolute;
-    color: rgb(56, 55, 55); 
+.apresentacao__links__link:hover{
+    background-color: #ffdcab;
+}
+
+.rodape {
+    padding: 20px;
+    color:#000000;
+    background-color: #fcaf71;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 0;
-    margin: 130px;
-    margin-top: 390px;
-    border-top: 2px solid rgb(87, 87, 87);  
+    font-family: 'montserrat', 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
 }
-
-div.imagemredonda img {
-    position: absolute;
-    margin: 120px;
-    display:block;
-    border-radius: 100%;
-    margin-top: 100px;
-    width: 250px;
-    height: 250px;
-}
-
-div.infos {
-    text-align-last: left;
-    margin: 480px;
-    padding-top: -50px;
-    text-align: center;
-    font-weight: 500;
-    font-family: Georgia;
-}
-
-div.sobre {
-    position: absolute;
-    width: 1500px;
-    height:400px;
-    background-color: #f4ece6; 
-    text-align-last: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-div.claudio {
-    position: absolute;
-    margin: 120px;
-    display:block;
-    border-radius: 100%;
-    margin-top: 100px;
-    width: 100px;
-    height: 100px;
-}
-
-
