@@ -111,6 +111,31 @@ body{
     width: 50%;
 }
 
+.botao_curriculo {
+    background-color: var(--cor-hover);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 23px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: var(--fonte-secundaria);
+
+}
+
+.curriculo_titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+
+}
+
 .rodape {
     padding: 20px;
     color: var(--cor-secundaria);
@@ -136,3 +161,4 @@ body{
     }
     
 }
+
