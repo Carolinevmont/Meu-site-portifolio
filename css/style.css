@@ -5,7 +5,7 @@
     --cor-secundaria: #102C57;
     --cor-terciaria: #DAC0A3;
     --cor-hover: #EADBC8;
-    --cor-hover-cabecalho: #36a5ff;
+    --cor-hover-cabecalho: #ffce73;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'montserrat', 'sans-serif';
@@ -139,6 +139,28 @@ body{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 
+}
+.projetos {
+    padding: 10% 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.apresentacao__projetos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.apresentacao__projetos__titulo{
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+    align-items: flex-end;
+    color: var(--cor-terciaria);
 }
 
 .rodape {
