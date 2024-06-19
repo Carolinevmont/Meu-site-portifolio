@@ -5,6 +5,7 @@
     --cor-secundaria: #102C57;
     --cor-terciaria: #DAC0A3;
     --cor-hover: #EADBC8;
+    --cor-hover-cabecalho: #36a5ff;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'montserrat', 'sans-serif';
@@ -29,6 +30,10 @@ body{
 .cabecalho__menu {
     display: flex;
     gap: 80px;
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-hover-cabecalho);
 }
 
 .cabecalho__menu__link {
