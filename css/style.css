@@ -5,7 +5,7 @@
     --cor-secundaria: #102C57;
     --cor-terciaria: #DAC0A3;
     --cor-hover: #EADBC8;
-    --cor-hover-cabecalho: #ffce73;
+    --cor-hover-cabecalho: #b96e48;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'montserrat', 'sans-serif';
@@ -89,7 +89,6 @@ body{
     font-size: 1.5rem;
 }
 
-
 .apresentacao__links__navegacao{
     background-color: var(--cor-hover);
     display: flex;
@@ -132,36 +131,68 @@ body{
     color: var(--cor-secundaria);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     font-family: var(--fonte-secundaria);
-
 }
 
-.curriculo_titulo {
-    font-size: 2.25rem;
-    font-family: var(--fonte-primaria);
-
-}
-.projetos {
-    padding: 10% 10%;
+.apresentacao_projetos {
+    padding: 8% 15%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-    gap: 70px;
+    gap: 82px;
 }
 
 .apresentacao__projetos {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 50px;
+    gap: 40px;
 }
 
-.apresentacao__projetos__titulo{
-    font-size: 2rem;
+.apresentacao__projetos__titulo {
+    margin: 5% 5%;
+    font-size: 2.15rem;
     font-family: var(--fonte-primaria);
-    align-items: flex-end;
-    color: var(--cor-terciaria);
+    color: var(--cor-terciaria)
 }
+
+.titulo-destaque-projeto{
+    color: var(--cor-secundaria);
+}
+
+.apresentacao_dos_links{
+    margin: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.projeto__links__navegacao{
+    background-color: var(--cor-hover);
+ 
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 33px 20px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: var(--fonte-secundaria);
+}
+
+.projeto__links__navegacao:hover{
+    background-color: var(--cor-terciaria)
+}
+
+.projeto__imagem {
+    width: 110%;
+}
+
 
 .rodape {
     padding: 20px;
